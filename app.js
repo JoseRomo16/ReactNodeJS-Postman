@@ -10,7 +10,7 @@ const user = require('./Public/user');
 
 const mongo_uri = 'mongodb://localhost:27017/drogueria';
 
-app.use(bodyParser.json());
+app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({extends: false}));
 app.use(express.static(path.join(__dirname, 'Public')));
 //app.use(express.urlencoded({extended: false}));
