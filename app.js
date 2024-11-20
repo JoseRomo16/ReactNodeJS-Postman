@@ -8,7 +8,7 @@ const User       = require('./Public/user');
 //const {result}   = require('underscore');
 const user = require('./Public/user');
 
-const mongo_uri = 'mongodb://localhost:27017/drogueria';
+const mongo_uri = 'mongodb://localhost:27017/Logger';
 
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({extends: false}));
